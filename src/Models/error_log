@@ -1,0 +1,26 @@
+[19-Jan-2019 21:19:25 UTC] PHP Notice:  Undefined variable: va in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:19:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'eguee23_Ikar0S'@'mocha3026' (using password: YES) in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php:8
+Stack trace:
+#0 /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php(8): PDO->__construct('mysql:host=mysq...', 'eguee23_Ikar0S', '1#Zux&jfv')
+#1 /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php(15): ConnectionModel->connect()
+#2 {main}
+  thrown in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:26:33 UTC] PHP Deprecated:  Non-static method ConnectionModel::connect() should not be called statically in /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php on line 9
+[19-Jan-2019 21:26:33 UTC] PHP Notice:  Undefined variable: va in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:26:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'eguee23_Ikar0S'@'mocha3026' (using password: YES) in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php:8
+Stack trace:
+#0 /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php(8): PDO->__construct('mysql:host=mysq...', 'eguee23_Ikar0S', '1#Zux&jfv')
+#1 /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php(9): ConnectionModel::connect()
+#2 /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php(20): PruebasModel->Conn()
+#3 {main}
+  thrown in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:28:15 UTC] PHP Deprecated:  Non-static method ConnectionModel::connect() should not be called statically in /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php on line 9
+[19-Jan-2019 21:28:15 UTC] PHP Notice:  Undefined variable: va in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:28:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'eguee23_Ikar0S'@'mocha3026' (using password: YES) in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php:8
+Stack trace:
+#0 /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php(8): PDO->__construct('mysql:host=mysq...', 'eguee23_Ikar0S', '1#Zux&jfv')
+#1 /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php(9): ConnectionModel::connect()
+#2 /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php(20): PruebasModel->Conn()
+#3 {main}
+  thrown in /home/eguee23/public_html/sw/smallfact/src/Models/ConnectionModel.php on line 8
+[19-Jan-2019 21:46:41 UTC] PHP Deprecated:  Non-static method ConnectionModel::connect() should not be called statically in /home/eguee23/public_html/sw/smallfact/src/Models/PruebasModel.php on line 9

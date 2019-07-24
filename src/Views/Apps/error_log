@@ -1,0 +1,17 @@
+[21-Jan-2019 02:09:29 UTC] PHP Warning:  require_once(src/Controllers/CuentasController.php): failed to open stream: No such file or directory in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 4
+[21-Jan-2019 02:09:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'src/Controllers/CuentasController.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 4
+[21-Jan-2019 02:11:19 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 3
+[21-Jan-2019 02:11:19 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 23
+[21-Jan-2019 02:12:11 UTC] PHP Warning:  require_once(src/Controllers/CuentasController.php): failed to open stream: No such file or directory in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 4
+[21-Jan-2019 02:12:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'src/Controllers/CuentasController.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/CuentasViews.php on line 4
+[21-Mar-2019 21:20:59 UTC] PHP Warning:  require_once(../../../Models/ConnectionModel.php): failed to open stream: No such file or directory in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 4
+[21-Mar-2019 21:20:59 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../Models/ConnectionModel.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 4
+[21-Mar-2019 21:25:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Connection' not found in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php:12
+Stack trace:
+#0 /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php(23): fechas->sqlFechas()
+#1 {main}
+  thrown in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 12
+[21-Mar-2019 22:09:39 UTC] PHP Parse error:  Invalid numeric literal in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 22
+[21-Mar-2019 22:09:45 UTC] PHP Parse error:  Invalid numeric literal in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 22
+[21-Mar-2019 22:13:00 UTC] PHP Parse error:  Invalid numeric literal in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 29
+[21-Mar-2019 22:16:43 UTC] PHP Parse error:  Invalid numeric literal in /home/eguee23/public_html/sw/smallfact/src/Views/Apps/_ssprueba.php on line 28
